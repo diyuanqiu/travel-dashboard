@@ -378,6 +378,13 @@
         @apply text-xl font-semibold text-dark-100;
       }
     }
+
+    .chart-card {
+      @apply p-6 bg-white shadow-400 rounded-20 flex flex-col gap-4;
+      h2 {
+        @apply text-base font-semibold text-dark-100;
+      }
+    }
   }
   .featured-card {
     @apply flex flex-col justify-between gap-3.5 p-[30px] min-h-[230px] h-full;

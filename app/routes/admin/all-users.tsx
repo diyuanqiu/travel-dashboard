@@ -1,10 +1,15 @@
 import React from 'react';
+import { Header } from '../../../components';
 
 const AllUser = () => {
     return (
-        <div>
-            <h1>All User</h1>
-        </div>
+        <main className='dashboard wrapper'>
+            <Header 
+                title='Trips Page'
+                description="Check out our current users"
+            />
+            All Users Page Contents
+        </main>
     );
 }
 

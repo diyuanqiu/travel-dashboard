@@ -95,6 +95,16 @@ declare interface TrendResult {
   percentage: number;
 }
 
+declare interface TourismFootTrafficPoint {
+  month: string;
+  visitors: number;
+}
+
+declare interface TourismTagStat {
+  tag: string;
+  count: number;
+}
+
 declare interface DashboardStats {
   totalUsers: number;
   usersJoined: {
